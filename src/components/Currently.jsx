@@ -12,7 +12,7 @@ export default function Currently() {
     >
       <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-16">
         <div className="md:col-span-12 xl:col-span-3">
-          <SectionLabel number="03" label="Currently" />
+          <SectionLabel number="04" label="Currently" />
         </div>
 
         <div className="md:col-span-12 xl:col-span-9 flex flex-col xl:flex-row xl:justify-between w-full gap-8 xl:gap-4">

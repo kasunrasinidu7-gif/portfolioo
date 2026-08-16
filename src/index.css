@@ -92,7 +92,7 @@ body {
    Stitch reference's clamp()-based scaling. */
 @media (min-width: 768px) {
   .fluid-display {
-    font-size: clamp(5rem, 10vw, 9.375rem);
+    font-size: clamp(3rem, 7vw, 7rem);
     line-height: 0.9;
   }
   .fluid-headline {

@@ -58,16 +58,18 @@ export default function ProjectCard({
           <p className="text-body-md text-on-surface-variant max-w-md mt-2">
             {description}
           </p>
-          <div className="flex flex-wrap gap-2 mt-4 xl:mt-8">
-            {tags.map((tag) => (
-              <span
-                key={tag}
-                className="text-label-caps uppercase border border-border px-3 py-1 text-on-surface-variant"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
+          {tags.length > 0 && (
+            <div className="flex flex-wrap gap-2 mt-4 xl:mt-8">
+              {tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="text-label-caps uppercase border border-border px-3 py-1 text-on-surface-variant"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
 
         <a
