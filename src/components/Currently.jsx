@@ -15,7 +15,7 @@ export default function Currently() {
           <SectionLabel number="04" label="Currently" />
         </div>
 
-        <div className="md:col-span-12 xl:col-span-9 flex flex-col xl:flex-row xl:justify-between w-full gap-8 xl:gap-4">
+        <div className="md:col-span-12 xl:col-span-9 flex flex-col xl:flex-row xl:justify-between xl:items-start w-full gap-8 xl:gap-4">
           {currentlyItems.map((item) => (
             <div
               key={item.label}

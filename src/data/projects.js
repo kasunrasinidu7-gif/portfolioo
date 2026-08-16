@@ -15,6 +15,10 @@
 // `link`: TODO — add a live URL or repo link per project when available.
 // ---------------------------------------------------------------------------
 
+import taskflowImg from "../assets/projects/taskflow.jpg";
+import weatherappImg from "../assets/projects/weatherapp.png";
+import touristGuideImg from "../assets/projects/tourist-guide.png";
+
 export const projects = [
   {
     number: "01",
@@ -22,7 +26,7 @@ export const projects = [
     description:
       "A task and project management web application for organizing and tracking work.",
     tags: ["React", "Node.js", "MySQL", "Socket.IO"],
-    image: null,
+    image: taskflowImg,
     link: "https://github.com/kasunrasinidu7-gif/TaskFlow.git",
   },
   {
@@ -34,8 +38,8 @@ export const projects = [
     // the repo (not publicly indexed/reachable at time of writing), and
     // didn't want to guess. Add the real technologies here, e.g.
     // ["React", "OpenWeather API"] or whatever stack was actually used.
-    tags: [],
-    image: null,
+    tags: ["Kotlin","REST API","Postman","XML"],
+    image: weatherappImg,
     link: "https://github.com/kasunrasinidu7-gif/WeatherApp.git",
   },
   {
@@ -44,10 +48,10 @@ export const projects = [
     description:
       "A tourism application supporting accommodation and vehicle reservations.",
     tags: ["Java", "MySQL", "REST API"],
-    image: null,
+    image: touristGuideImg,
     // TODO: add the GitHub/demo URL once available. Left as "#" — the
     // ProjectCard component treats this as "no link yet" and disables
     // the link instead of pointing anywhere dead.
-    link: "#",
+    link: "https://github.com/kasunrasinidu7-gif/tourist-guide-app.git",
   },
 ];

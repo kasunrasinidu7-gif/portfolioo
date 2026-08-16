@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import SelectedWork from "./components/SelectedWork";
-import CreativeWork from "./components/CreativeWork";
+//import CreativeWork from "./components/CreativeWork";
 import About from "./components/About";
 import Currently from "./components/Currently";
 import Contact from "./components/Contact";
@@ -15,7 +15,7 @@ function App() {
       <main className="w-full max-w-[1400px] mx-auto flex flex-col flex-1 xl:px-8">
         <Hero />
         <SelectedWork />
-        <CreativeWork />
+        {/* <CreativeWork /> */}
         <About />
         <Currently />
         <Contact />
