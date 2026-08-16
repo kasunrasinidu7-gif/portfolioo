@@ -44,12 +44,20 @@ export default function Hero() {
           <span className="block">{profile.tagline}</span>
         </div>
 
-        <div className="mt-8">
+        <div className="mt-8 flex flex-wrap items-center gap-4">
           <a
             href="#work"
             className="inline-flex items-center gap-2 bg-primary-container text-on-primary text-label-caps uppercase px-8 py-4 hover:bg-white transition-colors duration-300"
           >
             Explore my work <ArrowRight size={16} />
+          </a>
+
+          <a
+            href="/cv.pdf"
+            download="Kasun_Rasinidhu_CV.pdf"
+            className="inline-flex items-center gap-2 border border-border text-on-surface text-label-caps uppercase px-8 py-4 hover:bg-white hover:text-black transition-colors duration-300"
+          >
+            Download CV <ArrowDown size={16} />
           </a>
         </div>
       </div>
